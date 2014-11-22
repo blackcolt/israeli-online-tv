@@ -11,16 +11,17 @@
 		9341D26F19B0B466005C64C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9341D26E19B0B466005C64C7 /* CoreGraphics.framework */; };
 		9341D27119B0B466005C64C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9341D27019B0B466005C64C7 /* UIKit.framework */; };
 		9341D27719B0B466005C64C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9341D27519B0B466005C64C7 /* InfoPlist.strings */; };
-		9341D27919B0B466005C64C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9341D27819B0B466005C64C7 /* main.m */; };
-		9341D27D19B0B466005C64C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9341D27C19B0B466005C64C7 /* AppDelegate.m */; };
 		9341D28019B0B466005C64C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9341D27E19B0B466005C64C7 /* Main.storyboard */; };
-		9341D28319B0B466005C64C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9341D28219B0B466005C64C7 /* ViewController.m */; };
 		9341D28519B0B466005C64C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9341D28419B0B466005C64C7 /* Images.xcassets */; };
 		9341D28C19B0B466005C64C7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9341D28B19B0B466005C64C7 /* XCTest.framework */; };
 		9341D28D19B0B466005C64C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9341D26C19B0B466005C64C7 /* Foundation.framework */; };
 		9341D28E19B0B466005C64C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9341D27019B0B466005C64C7 /* UIKit.framework */; };
 		9341D29619B0B466005C64C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9341D29419B0B466005C64C7 /* InfoPlist.strings */; };
 		9341D29819B0B466005C64C7 /* israeli_online_tvTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9341D29719B0B466005C64C7 /* israeli_online_tvTests.m */; };
+		9341D2C119B0B4B0005C64C7 /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9341D2C019B0B4B0005C64C7 /* libGoogleAdMobAds.a */; };
+		9341D2C819B0B74F005C64C7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9341D2C719B0B74F005C64C7 /* AudioToolbox.framework */; };
+		9341D2CA19B0B754005C64C7 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9341D2C919B0B754005C64C7 /* MessageUI.framework */; };
+		9341D2CC19B0B764005C64C7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9341D2CB19B0B764005C64C7 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9341D26919B0B466005C64C7 /* israeli online tv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "israeli online tv.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9341D26919B0B466005C64C7 /* iTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9341D26C19B0B466005C64C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9341D26E19B0B466005C64C7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		9341D27019B0B466005C64C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -53,6 +54,39 @@
 		9341D29319B0B466005C64C7 /* israeli online tvTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "israeli online tvTests-Info.plist"; sourceTree = "<group>"; };
 		9341D29519B0B466005C64C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9341D29719B0B466005C64C7 /* israeli_online_tvTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = israeli_online_tvTests.m; sourceTree = "<group>"; };
+		9341D2A319B0B4B0005C64C7 /* DFPBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFPBannerView.h; sourceTree = "<group>"; };
+		9341D2A419B0B4B0005C64C7 /* DFPExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFPExtras.h; sourceTree = "<group>"; };
+		9341D2A519B0B4B0005C64C7 /* DFPInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFPInterstitial.h; sourceTree = "<group>"; };
+		9341D2A619B0B4B0005C64C7 /* DFPSwipeableBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFPSwipeableBannerView.h; sourceTree = "<group>"; };
+		9341D2A719B0B4B0005C64C7 /* GADAdSizeDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdSizeDelegate.h; sourceTree = "<group>"; };
+		9341D2A819B0B4B0005C64C7 /* GADAppEventDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAppEventDelegate.h; sourceTree = "<group>"; };
+		9341D2A919B0B4B0005C64C7 /* GADSwipeableBannerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADSwipeableBannerViewDelegate.h; sourceTree = "<group>"; };
+		9341D2AB19B0B4B0005C64C7 /* GADCustomEventBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventBanner.h; sourceTree = "<group>"; };
+		9341D2AC19B0B4B0005C64C7 /* GADCustomEventBannerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventBannerDelegate.h; sourceTree = "<group>"; };
+		9341D2AD19B0B4B0005C64C7 /* GADCustomEventExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventExtras.h; sourceTree = "<group>"; };
+		9341D2AE19B0B4B0005C64C7 /* GADCustomEventInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventInterstitial.h; sourceTree = "<group>"; };
+		9341D2AF19B0B4B0005C64C7 /* GADCustomEventInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventInterstitialDelegate.h; sourceTree = "<group>"; };
+		9341D2B019B0B4B0005C64C7 /* GADCustomEventRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventRequest.h; sourceTree = "<group>"; };
+		9341D2B219B0B4B0005C64C7 /* GADSearchBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADSearchBannerView.h; sourceTree = "<group>"; };
+		9341D2B319B0B4B0005C64C7 /* GADSearchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADSearchRequest.h; sourceTree = "<group>"; };
+		9341D2B419B0B4B0005C64C7 /* GADAdMobExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdMobExtras.h; sourceTree = "<group>"; };
+		9341D2B519B0B4B0005C64C7 /* GADAdNetworkExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdNetworkExtras.h; sourceTree = "<group>"; };
+		9341D2B619B0B4B0005C64C7 /* GADAdSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdSize.h; sourceTree = "<group>"; };
+		9341D2B719B0B4B0005C64C7 /* GADBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerView.h; sourceTree = "<group>"; };
+		9341D2B819B0B4B0005C64C7 /* GADBannerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerViewDelegate.h; sourceTree = "<group>"; };
+		9341D2B919B0B4B0005C64C7 /* GADInAppPurchase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInAppPurchase.h; sourceTree = "<group>"; };
+		9341D2BA19B0B4B0005C64C7 /* GADInAppPurchaseDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInAppPurchaseDelegate.h; sourceTree = "<group>"; };
+		9341D2BB19B0B4B0005C64C7 /* GADInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitial.h; sourceTree = "<group>"; };
+		9341D2BC19B0B4B0005C64C7 /* GADInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitialDelegate.h; sourceTree = "<group>"; };
+		9341D2BD19B0B4B0005C64C7 /* GADModules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADModules.h; sourceTree = "<group>"; };
+		9341D2BE19B0B4B0005C64C7 /* GADRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequest.h; sourceTree = "<group>"; };
+		9341D2BF19B0B4B0005C64C7 /* GADRequestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequestError.h; sourceTree = "<group>"; };
+		9341D2C019B0B4B0005C64C7 /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAdMobAds.a; sourceTree = "<group>"; };
+		9341D2C419B0B59C005C64C7 /* channel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = channel.h; sourceTree = "<group>"; };
+		9341D2C519B0B59C005C64C7 /* channel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = channel.m; sourceTree = "<group>"; };
+		9341D2C719B0B74F005C64C7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		9341D2C919B0B754005C64C7 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		9341D2CB19B0B764005C64C7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +95,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9341D26F19B0B466005C64C7 /* CoreGraphics.framework in Frameworks */,
+				9341D2CC19B0B764005C64C7 /* SystemConfiguration.framework in Frameworks */,
+				9341D2CA19B0B754005C64C7 /* MessageUI.framework in Frameworks */,
+				9341D2C819B0B74F005C64C7 /* AudioToolbox.framework in Frameworks */,
+				9341D2C119B0B4B0005C64C7 /* libGoogleAdMobAds.a in Frameworks */,
 				9341D27119B0B466005C64C7 /* UIKit.framework in Frameworks */,
 				9341D26D19B0B466005C64C7 /* Foundation.framework in Frameworks */,
 			);
@@ -92,7 +130,7 @@
 		9341D26A19B0B466005C64C7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9341D26919B0B466005C64C7 /* israeli online tv.app */,
+				9341D26919B0B466005C64C7 /* iTV.app */,
 				9341D28A19B0B466005C64C7 /* israeli online tvTests.xctest */,
 			);
 			name = Products;
@@ -101,6 +139,9 @@
 		9341D26B19B0B466005C64C7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9341D2CB19B0B764005C64C7 /* SystemConfiguration.framework */,
+				9341D2C919B0B754005C64C7 /* MessageUI.framework */,
+				9341D2C719B0B74F005C64C7 /* AudioToolbox.framework */,
 				9341D26C19B0B466005C64C7 /* Foundation.framework */,
 				9341D26E19B0B466005C64C7 /* CoreGraphics.framework */,
 				9341D27019B0B466005C64C7 /* UIKit.framework */,
@@ -112,6 +153,9 @@
 		9341D27219B0B466005C64C7 /* israeli online tv */ = {
 			isa = PBXGroup;
 			children = (
+				9341D2C319B0B559005C64C7 /* channel class */,
+				9341D2C219B0B4B7005C64C7 /* ADMOB */,
+				9341D2A119B0B4B0005C64C7 /* Add-ons */,
 				9341D27B19B0B466005C64C7 /* AppDelegate.h */,
 				9341D27C19B0B466005C64C7 /* AppDelegate.m */,
 				9341D27E19B0B466005C64C7 /* Main.storyboard */,
@@ -152,6 +196,81 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		9341D2A119B0B4B0005C64C7 /* Add-ons */ = {
+			isa = PBXGroup;
+			children = (
+				9341D2A219B0B4B0005C64C7 /* DoubleClick */,
+				9341D2AA19B0B4B0005C64C7 /* Mediation */,
+				9341D2B119B0B4B0005C64C7 /* Search */,
+			);
+			path = "Add-ons";
+			sourceTree = "<group>";
+		};
+		9341D2A219B0B4B0005C64C7 /* DoubleClick */ = {
+			isa = PBXGroup;
+			children = (
+				9341D2A319B0B4B0005C64C7 /* DFPBannerView.h */,
+				9341D2A419B0B4B0005C64C7 /* DFPExtras.h */,
+				9341D2A519B0B4B0005C64C7 /* DFPInterstitial.h */,
+				9341D2A619B0B4B0005C64C7 /* DFPSwipeableBannerView.h */,
+				9341D2A719B0B4B0005C64C7 /* GADAdSizeDelegate.h */,
+				9341D2A819B0B4B0005C64C7 /* GADAppEventDelegate.h */,
+				9341D2A919B0B4B0005C64C7 /* GADSwipeableBannerViewDelegate.h */,
+			);
+			path = DoubleClick;
+			sourceTree = "<group>";
+		};
+		9341D2AA19B0B4B0005C64C7 /* Mediation */ = {
+			isa = PBXGroup;
+			children = (
+				9341D2AB19B0B4B0005C64C7 /* GADCustomEventBanner.h */,
+				9341D2AC19B0B4B0005C64C7 /* GADCustomEventBannerDelegate.h */,
+				9341D2AD19B0B4B0005C64C7 /* GADCustomEventExtras.h */,
+				9341D2AE19B0B4B0005C64C7 /* GADCustomEventInterstitial.h */,
+				9341D2AF19B0B4B0005C64C7 /* GADCustomEventInterstitialDelegate.h */,
+				9341D2B019B0B4B0005C64C7 /* GADCustomEventRequest.h */,
+			);
+			path = Mediation;
+			sourceTree = "<group>";
+		};
+		9341D2B119B0B4B0005C64C7 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				9341D2B219B0B4B0005C64C7 /* GADSearchBannerView.h */,
+				9341D2B319B0B4B0005C64C7 /* GADSearchRequest.h */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		9341D2C219B0B4B7005C64C7 /* ADMOB */ = {
+			isa = PBXGroup;
+			children = (
+				9341D2B419B0B4B0005C64C7 /* GADAdMobExtras.h */,
+				9341D2B519B0B4B0005C64C7 /* GADAdNetworkExtras.h */,
+				9341D2B619B0B4B0005C64C7 /* GADAdSize.h */,
+				9341D2B719B0B4B0005C64C7 /* GADBannerView.h */,
+				9341D2B819B0B4B0005C64C7 /* GADBannerViewDelegate.h */,
+				9341D2B919B0B4B0005C64C7 /* GADInAppPurchase.h */,
+				9341D2BA19B0B4B0005C64C7 /* GADInAppPurchaseDelegate.h */,
+				9341D2BB19B0B4B0005C64C7 /* GADInterstitial.h */,
+				9341D2BC19B0B4B0005C64C7 /* GADInterstitialDelegate.h */,
+				9341D2BD19B0B4B0005C64C7 /* GADModules.h */,
+				9341D2BE19B0B4B0005C64C7 /* GADRequest.h */,
+				9341D2BF19B0B4B0005C64C7 /* GADRequestError.h */,
+				9341D2C019B0B4B0005C64C7 /* libGoogleAdMobAds.a */,
+			);
+			name = ADMOB;
+			sourceTree = "<group>";
+		};
+		9341D2C319B0B559005C64C7 /* channel class */ = {
+			isa = PBXGroup;
+			children = (
+				9341D2C419B0B59C005C64C7 /* channel.h */,
+				9341D2C519B0B59C005C64C7 /* channel.m */,
+			);
+			name = "channel class";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -169,7 +288,7 @@
 			);
 			name = "israeli online tv";
 			productName = "israeli online tv";
-			productReference = 9341D26919B0B466005C64C7 /* israeli online tv.app */;
+			productReference = 9341D26919B0B466005C64C7 /* iTV.app */;
 			productType = "com.apple.product-type.application";
 		};
 		9341D28919B0B466005C64C7 /* israeli online tvTests */ = {
@@ -199,6 +318,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "idan magled";
 				TargetAttributes = {
+					9341D26819B0B466005C64C7 = {
+						DevelopmentTeam = WK3MG9PTZP;
+					};
 					9341D28919B0B466005C64C7 = {
 						TestTargetID = 9341D26819B0B466005C64C7;
 					};
@@ -249,9 +371,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9341D28319B0B466005C64C7 /* ViewController.m in Sources */,
-				9341D27D19B0B466005C64C7 /* AppDelegate.m in Sources */,
-				9341D27919B0B466005C64C7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,7 +498,15 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "israeli online tv/israeli online tv-Prefix.pch";
 				INFOPLIST_FILE = "israeli online tv/israeli online tv-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/israeli",
+					online,
+					tv,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = iTV;
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -392,7 +519,15 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "israeli online tv/israeli online tv-Prefix.pch";
 				INFOPLIST_FILE = "israeli online tv/israeli online tv-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/israeli",
+					online,
+					tv,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = iTV;
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -456,6 +591,7 @@
 				9341D29D19B0B466005C64C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9341D29E19B0B466005C64C7 /* Build configuration list for PBXNativeTarget "israeli online tvTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +600,7 @@
 				9341D2A019B0B466005C64C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
