@@ -11,7 +11,6 @@
 		9341D26F19B0B466005C64C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9341D26E19B0B466005C64C7 /* CoreGraphics.framework */; };
 		9341D27119B0B466005C64C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9341D27019B0B466005C64C7 /* UIKit.framework */; };
 		9341D27719B0B466005C64C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9341D27519B0B466005C64C7 /* InfoPlist.strings */; };
-		9341D28019B0B466005C64C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9341D27E19B0B466005C64C7 /* Main.storyboard */; };
 		9341D28519B0B466005C64C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9341D28419B0B466005C64C7 /* Images.xcassets */; };
 		9341D28C19B0B466005C64C7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9341D28B19B0B466005C64C7 /* XCTest.framework */; };
 		9341D28D19B0B466005C64C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9341D26C19B0B466005C64C7 /* Foundation.framework */; };
@@ -352,7 +351,6 @@
 			files = (
 				9341D28519B0B466005C64C7 /* Images.xcassets in Resources */,
 				9341D27719B0B466005C64C7 /* InfoPlist.strings in Resources */,
-				9341D28019B0B466005C64C7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,15 +496,17 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "israeli online tv/israeli online tv-Prefix.pch";
 				INFOPLIST_FILE = "israeli online tv/israeli online tv-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/israeli",
 					online,
 					tv,
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = iTV;
-				VALID_ARCHS = "armv7 armv7s";
+				VALID_ARCHS = "armv7 armv7s armv6";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -519,15 +519,17 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "israeli online tv/israeli online tv-Prefix.pch";
 				INFOPLIST_FILE = "israeli online tv/israeli online tv-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/israeli",
 					online,
 					tv,
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = iTV;
-				VALID_ARCHS = "armv7 armv7s";
+				VALID_ARCHS = "armv7 armv7s armv6";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

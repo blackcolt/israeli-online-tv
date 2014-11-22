@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9341D26819B0B466005C64C7"
-               BuildableName = "israeli online tv.app"
+               BuildableName = "iTV.app"
                BlueprintName = "israeli online tv"
                ReferencedContainer = "container:israeli online tv.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9341D26819B0B466005C64C7"
-            BuildableName = "israeli online tv.app"
+            BuildableName = "iTV.app"
             BlueprintName = "israeli online tv"
             ReferencedContainer = "container:israeli online tv.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9341D26819B0B466005C64C7"
-            BuildableName = "israeli online tv.app"
+            BuildableName = "iTV.app"
             BlueprintName = "israeli online tv"
             ReferencedContainer = "container:israeli online tv.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9341D26819B0B466005C64C7"
-            BuildableName = "israeli online tv.app"
+            BuildableName = "iTV.app"
             BlueprintName = "israeli online tv"
             ReferencedContainer = "container:israeli online tv.xcodeproj">
          </BuildableReference>
